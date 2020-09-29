@@ -1,4 +1,4 @@
-# Welcome to the first pair toy problem of JSP!
+# Welcome to the first pair toy problems of JSP!
 
 This week, we’re solving some old familiar toy problems from HR, specially selected for their frequent use in job interviews.
 
