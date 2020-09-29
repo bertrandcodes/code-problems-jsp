@@ -12,6 +12,10 @@ You'll find each day's toy problem in its own folder.
 If you haven't already, fork the repository on GitHub and clone your newly created
 repo down to your computer.
 
+## Pair Coding Roles
+
+UPDATED 9/29: Please review [pair coding roles](https://github.com/hackreactor/hrjsp1-toy-problems/blob/master/PAIRING_ROLES.md) before beginning a paired session.
+
 ## Solutions and Testing
 
 Now that you are in JSP, we're not going to be employing our old friend Spectator Bot any longer. When challenges live on Leetcode, you'll be able to run their  tests, but the real goal here is to remove the crutch of coding to pass predetermined tests and focus instead on articulating the logic of the code you're building. Each week, we'll focus on a new skillset. Links to toy problem solutions will be provided, but your toy problems will not be "graded" in any way.
