@@ -27,9 +27,7 @@ the repo with JSP's. Git won't automatically pull in upstream changes for
 you; it trusts that you'll pull them in as needed. Do so by giving Git a reference
 to hackreactor's version of the repo:
 
-    git remote add upstream https://github.com/hackreactor/xxxx##-toy-problems.git
-
-  > Be sure to substitue `xxxx##` with your actual cohort prefix where xxxx is your campus and ## is your cohort number (ex: hrsf50)
+    git remote add upstream https://github.com/hackreactor/hrjsp1-toy-problems.git
 
 After you've done that, updating your repo is as simple as running the following:
 
