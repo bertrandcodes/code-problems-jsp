@@ -1,6 +1,6 @@
 # Pair Coding Roles
 
-Remote interviews for software engineering roles rely heavily on live pair coding challenges. Typically, these take place in an early round. To prepare you for this type of interview, you and your pair partner will be each assigned a role: Interviewer or Job Seeker. In the case of an odd number of participants, three people may be “paired”. In that case, there will be two Interviewers and one Job Seeker.
+Remote interviews for software engineering roles rely heavily on live pair coding challenges. Typically, these take place in an early round. To prepare you for this type of interview, you and your pair partner will be each assigned a role: Interviewer or Job Seeker. In the case of an odd number of participants, three people may be “paired.” In that case, there will be two Interviewers and one Job Seeker.
 
 ## Coding Environment
 
@@ -17,7 +17,7 @@ The interviewer will ...
    - Any other pair coding method that you can implement and share quickly with your job seeker
 
 2. Once connected, explain the problem to the job seeker, including expected output. 
-3. Answers any clarifying questions the job seeker may have to define the scope of the problem before they begin.
+3. Answer any clarifying questions the job seeker may have to define the scope of the problem before they begin.
 4. Decide and communicate edge cases when asked.
 5. If the job seeker gets stuck, ask leading questions or provide suggestions to get them back on track.
 
