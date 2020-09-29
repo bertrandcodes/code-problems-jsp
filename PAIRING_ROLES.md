@@ -27,5 +27,5 @@ The job seeker will:
 4. Write code to implement a solution. Remember to communicate as you write.
 5. Ask for advice if you get stuck or need clarity.
 
-
+---
 If you have a lot of time left, pick another problem from your HR toy problem archives or Leetcode and switch roles. (You’ll only need to submit pair/toy problem feedback on your original roles.)
