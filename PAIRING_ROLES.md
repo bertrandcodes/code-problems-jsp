@@ -31,7 +31,7 @@ Other prompts to consider while interviewing your partner (if they have not proa
 
 It is VERY important that you not begin coding immediately. Chances are high that you will receive a code challenge during an interview that you have seen before. Remember that the interviewer is not interested in how many toy problems you have memorized, but rather on your ability to ask insightful questions about the problem in front of you; to communicate your logic and thinking; to consider edge cases; to generate clean and readable code.
 
-The job seeker will:
+The job seeker will...
 
 1. Ask the interviewer clarifying questions to help define the scope of the problem.
 2. Inquire about edge cases or unusual input.
