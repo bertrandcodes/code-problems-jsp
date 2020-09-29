@@ -11,11 +11,10 @@ Sometimes, you will be well-prepared by the company and know on which platform t
 The interviewer will ... 
 
 1. Choose the pairing method and Slack connection information to their partner. You can utilize:
-
-* Your personal Zoom room with screenshare (Sorry, but we cannot create breakout rooms from the main room with the large number of JSP participants.)
-* Google Meet with screenshare
-* Visual Code Studio with Live Share/Audio ([Get extension pack](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack))
-* Any other pair coding method that you can implement and share quickly with your job seeker
+   - Your personal Zoom room with screenshare (Sorry, but we cannot create breakout rooms from the main room with the large number of JSP participants.)
+   - Google Meet with screenshare
+   - Visual Code Studio with Live Share/Audio ([Get extension pack](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack))
+   - Any other pair coding method that you can implement and share quickly with your job seeker
 
 2. Once connected, explain the problem to the job seeker, including expected output. 
 3. Answers any clarifying questions the job seeker may have to define the scope of the problem before they begin.
