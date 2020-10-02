@@ -1,7 +1,6 @@
 # Toy Problems
 
-Welcome to the central repo for JSP Toy Problems. This repository will be updated every morning with a new
-code challenge.
+Welcome to the central repo for JSP Toy Problems. This repository will be updated with a new code challenge every morning of JSP.
 
 ## Using this Repository
 
