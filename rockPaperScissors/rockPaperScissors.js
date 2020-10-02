@@ -18,6 +18,6 @@
 *
 */
 
-var rockPaperScissors = function(rounds) {
+var rockPaperScissors = function() {
 
 };
