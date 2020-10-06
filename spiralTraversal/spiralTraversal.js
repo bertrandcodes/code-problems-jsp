@@ -92,6 +92,77 @@
 
     returns [1, 2, 3, 6, 9, 8, 7, 4, 5]
  */
+var spiralTraversal = function (matrix) {
+  let result = []
+  let top = 0;
+  let bottom = matrix.length - 1;
+  let left = 0;
+  let right = matrix.length - 1;
+
+  // while top <= bottom && left <= right
+  while (top <= bottom && left <= right) {
+    // iterate over left to right and push in
+    // top++
+    for (let i = left; i <= right; i++) {
+      result.push(matrix[top][i])
+    }
+    top++
+
+    for (let i = top; i <= bottom; i++) {
+      result.push(matrix[i][right])
+    }
+    right--
+
+    for (let i = right; i >= left; i--) {
+      result.push(matrix[bottom][i])
+    }
+    bottom--
+
+    for (let i = bottom; i >= top; i--) {
+      result.push(matrix[i][left])
+    }
+    left++
+
+    // iterate over top to bottom
+    // push in matrix[i][right]
+    // right--
+
+    // reverse loop from right to left
+    // bottom--
+
+    // reverse loop from bottom to top
+    // left++
+  }
+  return result
+
+}
+
+//top = 0
+//bottom = matrix.length - 1
+//left = 0
+//right = matrix.length - 1
+
+// while top <= bottom && left <= right
+// iterate over left to right and push in
+// top++
+
+// iterate over top to bottom
+// push in matrix[i][right]
+// right--
+
+// reverse loop from right to left
+// bottom--
+
+// reverse loop from bottom to top
+// left++
+
+
+
+
+
+
+
+
 
 var spiralTraversal = function (matrix) {
   // rowLength as matrix[0].length - 1
