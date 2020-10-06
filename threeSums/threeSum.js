@@ -16,6 +16,10 @@ way you are able to today, using "brute force" (ignoring efficiency) if necessar
 We will revisit this problem later in JSP, after re/learning algorithms that will
 help you approach this problem with time complexity in mind.
 
+In Leetcode, the solution is locked for Premium subscribers. We will Slack a solution
+link 15 minutes before the end of the pair module so you and your partner can
+review the solution together.
+
 */
 
 var threeSum = function(nums) {
