@@ -1,6 +1,6 @@
 # Welcome to Week 3 of JSP!
 
-It is Dynamic Programming Week for toy problems. This type of interview prompt is very common, because it allows the interviewer to view your thought process in wrangling potentially high time/space complexity problems into an optimized set of sub-problems.
+It is Dynamic Programming Week for toy problems. This type of interview prompt is very common, because it allows the interviewer to observe your thought process in wrangling potentially high time/space complexity problems into an optimized set of sub-problems.
 
 If you need a refresher on dynamic programming, start with these resources before beginning.
 
