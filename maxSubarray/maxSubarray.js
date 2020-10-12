@@ -38,6 +38,7 @@ Constraints:
 
 1 <= nums.length <= 2 * 104
 -231 <= nums[i] <= 231 - 1
+*/
 
 var maxSubArray = function(nums) {
     
