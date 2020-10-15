@@ -4,7 +4,7 @@
  */
 
 
-/* 688. Trapping Rain Water
+/* 42. Trapping Rain Water
 https://leetcode.com/problems/trapping-rain-water/
 
 Given n non-negative integers representing an elevation map where
