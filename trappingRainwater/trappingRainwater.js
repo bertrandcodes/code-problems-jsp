@@ -7,7 +7,7 @@
 /* 42. Trapping Rain Water
 https://leetcode.com/problems/trapping-rain-water/
 
-Helpful animation of this prompt: thttps://youtu.be/HmBbcDiJapY?t=51
+Helpful animation of this prompt: https://youtu.be/HmBbcDiJapY?t=51
 
 
 Given n non-negative integers representing an elevation map where
