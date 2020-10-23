@@ -32,6 +32,27 @@ The value of each element in nums will be in the range [-9999, 9999].
 */
 
 
-var search = function(nums, target) {
-    
+var search = function (nums, target) {
+    //left
+    let left = 0
+    //right
+    let right = nums.length - 1
+
+    //while left < right
+    while (left<=right) {
+        //middle index=left+right/2 rounded
+        let middle = Math.round((left + right) / 2)
+        //if num at middle = target, return middle index
+        if (nums[middle] === target) {
+            return middle
+        } else if (nums[middle] > target) {
+            right = middle-1
+        } else if (nums[middle] < target) {
+            left = middle+1
+        }
+        //if num is less, right = middle
+        //if num is greater, left = middle
+    }
+    return -1
+    //return -1
 };
