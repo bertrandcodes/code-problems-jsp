@@ -27,5 +27,34 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 */
 
 var maxProfit = function(prices) {
-    
+    let profit = 0
+    let max = 0
+    let min = prices[0]
+    for(let i = 1; i<prices.length;i++){
+        if(prices[i] < min){
+            min = prices[i]
+        } else if(prices[i] >= max){
+            max = prices[i]
+            profit=Math.max(profit, (max-min))
+            max=0
+        }
+    }
+    return profit
 };
+
+// [2,3,8,1,2]
+
+//array
+//num
+//constraints:linear
+//edge:all desending (Return 0)
+
+//biggest profit = 0
+//max is 0
+//min first item in array
+//iterate over array starting at second item
+ //if num is lower than min, set as min
+ //if num is greater than max, set as max and take different and math.max it
+
+//wanna buy the lowest
+//sell highest

@@ -50,7 +50,35 @@ Explanation: The root node's value is 5 but its right child's value is 4.
 
 */
 
-
 var isValidBST = function(root) {
-    
+    var result = true
+    var checkValid = function(node){
+        if(node.left === null && node.right === null){
+            return;
+        } else if(node.left && node.left === null){
+            if(node.right.val <= node.val){
+                result=false
+            }
+            checkValid(node.right)
+        } else if(node.right && node.right.val === null){
+            if(node.left >= node.val){
+                result=false
+            }
+            checkValid(node.left)
+        } else{
+            if((node.right && node.right.val <= node.val) || (node.left && node.left.val >= node.val)){
+                result=false
+            }
+            if(node.right){
+               checkValid(node.right)
+            }
+            if(node.left){
+              checkValid(node.left)
+            }
+        }
+    }
+    if(root){
+    checkValid(root)        
+    }
+    return result
 };
